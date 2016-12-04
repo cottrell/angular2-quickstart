@@ -10,13 +10,18 @@
     'app':                        'app', // 'dist',
     '@angular':                   'node_modules/@angular',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
-    'rxjs':                       'node_modules/rxjs'
+    'rxjs':                       'node_modules/rxjs',
+    'chartjs': 'node_modules/chart.js/dist/Chart.js',
+    'ng2-charts': 'node_modules/ng2-charts/bundles',
+    'ng2-charts-components': 'node_modules/ng2-charts/components/charts/charts.js'
   };
   // packages tells the System loader how to load when no filename and/or no extension
   var packages = {
     'app':                        { main: 'main.js',  defaultExtension: 'js' },
     'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
+    'ng2-charts': { defaultExtension: 'js' },
+    'chartjs': { defaultExtension: 'js' },
   };
   var ngPackageNames = [
     'common',
