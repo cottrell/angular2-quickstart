@@ -11,7 +11,6 @@ declare var jsSHA : any;
 
 @Component({
   selector: 'my-app',
-  directives: [AppComponent2],
   template: `
     <alert type="info">ng2-bootstrap hello world! Selected date is: <em *ngIf="dt">{{ getDate() | date:'fullDate'}}</em></alert>
       <div style="display:inline-block; min-height:290px;">
