@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
 import {AlertComponent } from 'ng2-bootstrap/ng2-bootstrap';
 import {NgModel} from '@angular/forms';
+import { AppComponent2 } from './app.component2';
+
 
 // declare var Chart : any;
 // let myChart = new Chart(new CanvasRenderingContext2D());
@@ -9,6 +11,7 @@ declare var jsSHA : any;
 
 @Component({
   selector: 'my-app',
+  directives: [AppComponent2],
   template: `
     <alert type="info">ng2-bootstrap hello world!</alert>
       <pre>Selected date is: <em *ngIf="dt">{{ getDate() | date:'fullDate'}}</em></pre>
@@ -19,6 +22,8 @@ declare var jsSHA : any;
     <h1>SHA-512 Hash example of including some js module</h1>
     <p>String: This is a test</p>
     <p>HEX: {{hash}}</p>
+    <h2>insdie app</h2>
+    <my-app2>woooooooo</my-app2>
   `,
 })
 export class AppComponent {
