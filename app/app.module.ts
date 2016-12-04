@@ -22,7 +22,7 @@ import { AppComponent2 } from './app.component2';
     BrowserModule,
     FormsModule,
     Ng2BootstrapModule,
-  ],
+  ], // ONLY MODULES GO HERE
   // Defines the set of injectable objects that are available in the injector of this module.
   providers: [],
   // Defines the components that should be bootstrapped when this module is
