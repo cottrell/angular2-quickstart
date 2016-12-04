@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { ChartsModule } from 'ng2-charts';
+// import { LineChartDemoComponent } from './line-chart-demo';
 
 // declare var Chart : any;
 // let myChart = new Chart(new CanvasRenderingContext2D());
