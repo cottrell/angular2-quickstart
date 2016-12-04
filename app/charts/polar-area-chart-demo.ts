@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
-// webpack html imports
-let template = require('./polar-area-chart-demo.html');
-
 @Component({
   selector: 'polar-area-chart-demo',
-  template: template
+  templateUrl: './app/charts/polar-area-chart-demo.html'
 })
 export class PolarAreaChartDemoComponent {
 

@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
-// webpack html imports
-let template = require('./radar-chart-demo.html');
-
 @Component({
   selector: 'radar-chart-demo',
-  template: template
+  templateUrl: './app/charts/radar-chart-demo.html'
 })
 export class RadarChartDemoComponent {
   // Radar

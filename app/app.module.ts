@@ -10,13 +10,12 @@ if (!ChartsModule) {
 }
 
 import { LineChartDemoComponent } from './charts/line-chart-demo';
-// import { BarChartDemoComponent } from './charts/bar-chart-demo';
-// import { DoughnutChartDemoComponent } from './charts/doughnut-chart-demo';
-// import { PieChartDemoComponent } from './charts/pie-chart-demo';
-// import { PolarAreaChartDemoComponent } from './charts/polar-area-chart-demo';
-// import { RadarChartDemoComponent } from './charts/radar-chart-demo';
-// import { BaseChartDemoComponent } from './charts/base-chart-demo';
-
+import { BarChartDemoComponent } from './charts/bar-chart-demo';
+import { DoughnutChartDemoComponent } from './charts/doughnut-chart-demo';
+import { PieChartDemoComponent } from './charts/pie-chart-demo';
+import { PolarAreaChartDemoComponent } from './charts/polar-area-chart-demo';
+import { RadarChartDemoComponent } from './charts/radar-chart-demo';
+import { BaseChartDemoComponent } from './charts/base-chart-demo';
 
 // declare var Chart : any;
 // let myChart = new Chart(new CanvasRenderingContext2D());
@@ -28,7 +27,17 @@ import { AppComponent2 } from './app.component2';
   // A component must belong to an NgModule in order for it to be usable by
   // another component or application. To specify that a component is a member
   // of an NgModule, you should list it in the declarations field of that NgModule.
-  declarations: [AppComponent, AppComponent2, LineChartDemoComponent],
+  declarations: [
+     AppComponent,
+     AppComponent2,
+     LineChartDemoComponent,
+     BarChartDemoComponent,
+     DoughnutChartDemoComponent,
+     PieChartDemoComponent,
+     PolarAreaChartDemoComponent,
+     RadarChartDemoComponent,
+     BaseChartDemoComponent
+   ],
   // Specifies a list of modules whose exported directives/pipes should be
   // available to templates in this module. This can also contain ModuleWithProviders.
   imports: [

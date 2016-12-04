@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
-// webpack html imports
-let template = require('./doughnut-chart-demo.html');
-
 @Component({
   selector: 'doughnut-chart-demo',
-  template: template
+  templateUrl: './app/charts/doughnut-chart-demo.html'
 })
 export class DoughnutChartDemoComponent {
   // Doughnut

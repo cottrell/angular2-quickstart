@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
-// webpack html imports
-let template = require('./pie-chart-demo.html');
-
 @Component({
   selector: 'pie-chart-demo',
-  template: template
+  templateUrl: './app/charts/pie-chart-demo.html'
 })
 export class PieChartDemoComponent {
   // Pie

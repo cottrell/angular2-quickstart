@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
-// webpack html imports
-let template = require('./bar-chart-demo.html');
-
 @Component({
   selector: 'bar-chart-demo',
-  template: template
+  templateUrl: './app/charts/bar-chart-demo.html'
 })
 export class BarChartDemoComponent {
   public barChartOptions:any = {

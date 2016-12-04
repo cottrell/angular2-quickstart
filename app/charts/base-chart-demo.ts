@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
-// webpack html imports
-let template = require('./base-chart-demo.html');
-
 @Component({
   selector: 'base-chart-demo',
-  template: template
+  template: './app/charts/base-chart-demo.html'
 })
 export class BaseChartDemoComponent {
   // lineChart
