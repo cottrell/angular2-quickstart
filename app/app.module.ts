@@ -8,16 +8,17 @@ import { ChartsModule } from "ng2-charts"
 // let myChart = new Chart(new CanvasRenderingContext2D());
 
 import { AppComponent } from './app.component';
+import { AppComponent2 } from './app.component2';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AppComponent2],
   imports: [
     BrowserModule,
     FormsModule,
     Ng2BootstrapModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, AppComponent2]
 })
 
 export class AppModule {
