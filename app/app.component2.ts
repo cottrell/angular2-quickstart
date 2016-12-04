@@ -9,7 +9,7 @@ declare var jsSHA : any;
 
 @Component({
   selector: 'my-app2',
-  templateUrl: 'app.component2.html',
+  templateUrl: 'app/app.component2.html',
 })
 export class AppComponent2 {
 }
