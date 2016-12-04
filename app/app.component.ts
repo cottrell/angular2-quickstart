@@ -13,9 +13,7 @@ declare var jsSHA : any;
   selector: 'my-app',
   directives: [AppComponent2],
   template: `
-    <alert type="info">ng2-bootstrap hello world!</alert>
-      <pre>Selected date is: <em *ngIf="dt">{{ getDate() | date:'fullDate'}}</em></pre>
-      <h4>Inline</h4>
+    <alert type="info">ng2-bootstrap hello world! Selected date is: <em *ngIf="dt">{{ getDate() | date:'fullDate'}}</em></alert>
       <div style="display:inline-block; min-height:290px;">
         <datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>
       </div>
