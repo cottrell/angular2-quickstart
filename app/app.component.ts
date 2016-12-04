@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
 import {AlertComponent } from 'ng2-bootstrap/ng2-bootstrap';
 import {NgModel} from '@angular/forms';
-import { AppComponent2 } from './app.component2';
 
 
 // declare var Chart : any;
