@@ -23,6 +23,7 @@
     "bootstrap": "^3.3.7",
     "chart.js": "^2.4.0",
     "core-js": "^2.4.1",
+    "jssha": "^2.2.0",
     "ng2-bootstrap": "1.1.14-1",
     "ng2-charts": "^1.4.1",
     "reflect-metadata": "^0.1.3",
