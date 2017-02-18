@@ -9,6 +9,9 @@ if (!ChartsModule) {
   console.log("OH NO ChartsModule not defined!")
 }
 
+import { Tabs } from './tabs';
+import { Tab } from './tab';
+
 import { LineChartDemoComponent } from './charts/line-chart-demo';
 import { BarChartDemoComponent } from './charts/bar-chart-demo';
 import { DoughnutChartDemoComponent } from './charts/doughnut-chart-demo';
@@ -36,7 +39,9 @@ import { AppComponent2 } from './app.component2';
      PieChartDemoComponent,
      PolarAreaChartDemoComponent,
      RadarChartDemoComponent,
-     BaseChartDemoComponent
+     BaseChartDemoComponent,
+     Tabs,
+     Tab
    ],
   // Specifies a list of modules whose exported directives/pipes should be
   // available to templates in this module. This can also contain ModuleWithProviders.
@@ -44,7 +49,7 @@ import { AppComponent2 } from './app.component2';
     BrowserModule,
     FormsModule,
     Ng2BootstrapModule,
-    ChartsModule,
+    ChartsModule
   ], // ONLY MODULES GO HERE
   // Defines the set of injectable objects that are available in the injector of this module.
   providers: [],

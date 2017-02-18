@@ -11,23 +11,29 @@ declare var jsSHA : any;
 @Component({
   selector: 'my-app',
   template: `
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-9">
-          <alert type="info">
-          ng2-bootstrap hello world! Selected date is: <em *ngIf="dt">{{ getDate() | date:'fullDate'}}</em>
-          <p>
-            SHA-512 Hash example of including some js module
-            HEX: {{hash}}
-          </p>
-          </alert>
+    <mytabs>
+      <mytab [tabTitle]="'Tab 1'">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-9">
+              <alert type="info">
+                ng2-bootstrap hello world! Selected date is: <em *ngIf="dt">{{ getDate() | date:'fullDate'}}</em>
+                <p>
+                  SHA-512 Hash example of including some js module
+                  HEX: {{hash}}
+                </p>
+              </alert>
+            </div>
+            <div class="col-md-3">
+              <datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-          <datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true"></datepicker>
-        </div>
-      </div>
-    </div>
-    <my-app2>my-app2 loading .... </my-app2>
+      </mytab>
+      <mytab tabTitle="Tab 2">
+        <my-app2>my-app2 loading .... </my-app2>
+      </mytab>
+    </mytabs>
   `,
 })
 export class AppComponent {

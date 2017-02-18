@@ -2,6 +2,9 @@ import {Component} from '@angular/core';
 import {AlertComponent } from 'ng2-bootstrap/ng2-bootstrap';
 import {NgModel} from '@angular/forms';
 
+import { Tabs } from './tabs';
+import { Tab } from './tab';
+
 // declare var Chart : any;
 // let myChart = new Chart(new CanvasRenderingContext2D());
 
