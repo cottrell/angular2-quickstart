@@ -18,3 +18,7 @@ Add `map` for `moment.js` and `ng2-bootstrap` in system.js config
 Done
 
 Good luck with angular2 hacking!
+
+
+https://keathmilligan.net/create-reusable-chart-components-with-angular-2-and-d3-js-version-4/
+https://github.com/tomwanzek/d3-ng2-service
