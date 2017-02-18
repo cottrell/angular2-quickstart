@@ -9,8 +9,8 @@ if (!ChartsModule) {
   console.log("OH NO ChartsModule not defined!")
 }
 
-import { Tabs } from './tabs';
-import { Tab } from './tab';
+import { Tabs } from './tabs.component';
+import { Tab } from './tab.component';
 
 import { LineChartDemoComponent } from './charts/line-chart-demo';
 import { BarChartDemoComponent } from './charts/bar-chart-demo';
